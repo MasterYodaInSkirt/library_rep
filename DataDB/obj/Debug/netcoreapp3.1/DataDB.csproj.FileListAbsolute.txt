@@ -1,0 +1,14 @@
+D:\development\library\DataDB\bin\Debug\netcoreapp3.1\DataDB.deps.json
+D:\development\library\DataDB\bin\Debug\netcoreapp3.1\DataDB.runtimeconfig.json
+D:\development\library\DataDB\bin\Debug\netcoreapp3.1\DataDB.runtimeconfig.dev.json
+D:\development\library\DataDB\bin\Debug\netcoreapp3.1\DataDB.dll
+D:\development\library\DataDB\bin\Debug\netcoreapp3.1\DataDB.pdb
+D:\development\library\DataDB\bin\Debug\netcoreapp3.1\System.Reactive.dll
+D:\development\library\DataDB\bin\Debug\netcoreapp3.1\System.Reactive.xml
+D:\development\library\DataDB\obj\Debug\netcoreapp3.1\DataDB.AssemblyInfoInputs.cache
+D:\development\library\DataDB\obj\Debug\netcoreapp3.1\DataDB.AssemblyInfo.cs
+D:\development\library\DataDB\obj\Debug\netcoreapp3.1\DataDB.csproj.CoreCompileInputs.cache
+D:\development\library\DataDB\obj\Debug\netcoreapp3.1\DataDB.csproj.CopyComplete
+D:\development\library\DataDB\obj\Debug\netcoreapp3.1\DataDB.dll
+D:\development\library\DataDB\obj\Debug\netcoreapp3.1\DataDB.pdb
+D:\development\library\DataDB\obj\Debug\netcoreapp3.1\DataDB.genruntimeconfig.cache
