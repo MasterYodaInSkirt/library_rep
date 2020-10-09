@@ -13,5 +13,6 @@ namespace DataDB.Models
         public string Publisher { get; set; }
         public string Country { get; set; }
         public DateTime Released { get; set; }
+       
     }
 }

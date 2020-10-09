@@ -20,7 +20,7 @@ namespace DataDB.Services
             _context.SaveChanges();
         }
 
-        public List<Book> GetAllBook()
+        public List<Book> GetAllBooks()
         {
             return _context.Books.ToList();
         }

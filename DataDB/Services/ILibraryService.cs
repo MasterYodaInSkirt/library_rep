@@ -7,6 +7,6 @@ namespace DataDB.Services
     {
         void Add(Book book);
 
-        List<Book> GetAllBook();
+        List<Book> GetAllBooks();
     }
 }
