@@ -25,10 +25,6 @@ namespace SourceData
             var libraryClient = RestService.For<ILibraryData>("https://anapioficeandfire.com/");
 
             await GetBookData(libraryClient, libraryService);
-
-            Console.WriteLine("Hello!");
-
-            Console.ReadLine();
         }
 
         private static IServiceCollection ConfigureServices(IServiceCollection services)
@@ -36,6 +32,7 @@ namespace SourceData
             var config = LoadConfiguration();
             services.AddSingleton(config);
             services.RegisterDataServices(config);
+
             services.AddTransient<ILibraryService, LibraryService>();
 
             return services;
@@ -60,7 +57,6 @@ namespace SourceData
 
         private static async Task GetBookData(ILibraryData libraryClient, ILibraryService libraryService)
         {
-            int i = 0;
             try
             {
                 var books = await GetBooksData(libraryClient);
@@ -76,11 +72,7 @@ namespace SourceData
                     };
 
                     libraryService.Add(bookmodel);
-
                 }
-                Console.WriteLine("Added shows:" + books.Count);
-                Console.WriteLine(i);
-                i++;
             }
             catch (ApiException ex)
             {

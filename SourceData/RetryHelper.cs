@@ -7,7 +7,6 @@ namespace SourceData
 {
     public static class RetryHelper
     {
-        //I am using log4net but swap in your favourite
         private static readonly ILog Log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
 
         public static async Task RetryOnExceptionAsync(
@@ -52,12 +51,12 @@ namespace SourceData
 
         internal static int[] DelayPerAttemptInSeconds =
         {
-        (int) TimeSpan.FromSeconds(2).TotalSeconds,
-        (int) TimeSpan.FromSeconds(30).TotalSeconds,
-        (int) TimeSpan.FromMinutes(2).TotalSeconds,
-        (int) TimeSpan.FromMinutes(10).TotalSeconds,
-        (int) TimeSpan.FromMinutes(30).TotalSeconds
-    };
+            (int) TimeSpan.FromSeconds(2).TotalSeconds,
+            (int) TimeSpan.FromSeconds(30).TotalSeconds,
+            (int) TimeSpan.FromMinutes(2).TotalSeconds,
+            (int) TimeSpan.FromMinutes(10).TotalSeconds,
+            (int) TimeSpan.FromMinutes(30).TotalSeconds
+        };
 
         static int IncreasingDelayInSeconds(int failedAttempts)
         {
